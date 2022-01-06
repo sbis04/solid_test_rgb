@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'screens/color_page.dart';
 
+/// Starting point of the app
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {

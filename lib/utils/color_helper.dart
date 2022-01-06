@@ -33,6 +33,7 @@ class ColorHelper {
         ? Colors.black
         : Colors.white;
 
+    // return the two colors as a set
     return {backgroundColor, textColor};
   }
 }
