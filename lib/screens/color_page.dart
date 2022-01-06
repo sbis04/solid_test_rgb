@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:solid_test_rgb/res/constants.dart';
 import 'package:solid_test_rgb/utils/color_helper.dart';
 
 class ColorPage extends StatefulWidget {
@@ -26,7 +27,7 @@ class _ColorPageState extends State<ColorPage> {
         backgroundColor: backgroundColor,
         body: Center(
           child: Text(
-            'Hey there',
+            heyThereString,
             style: TextStyle(
               color: textColor,
               fontSize: 24.0,
