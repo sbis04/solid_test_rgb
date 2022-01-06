@@ -2,6 +2,17 @@
 
 A Flutter project to test RGB colors.
 
+# Structure
+
+The project structure is as follows:
+
+* **res**: contains all the constants
+* **screen**: contains all the screens of the app
+* **utils**: consists of the helper methods
+* **test**: contians the unit and widget tests
+  * **contrast color test**: checks if the color generation logic is correct
+  * **widget color test**: checks if the scaffold background color is set correctly
+
 # License
 
 Copyright (c) 2021 Souvik Biswas
